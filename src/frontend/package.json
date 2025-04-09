@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "clean": "rimraf ../main/resources/assets",
+    "rollup": "rollup -c"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "baseline-status": "^1.0.11"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.39.0"
+  }
+}

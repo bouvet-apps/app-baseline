@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<part xmlns="urn:enonic:xp:model:1.0">
+    <display-name>Web Dev Baseline</display-name>
+    <description>Lists status of provided keyword</description>
+    <form>
+        <input name="featureId" type="TextLine">
+            <label>Feature ID</label>
+        </input>
+    </form>
+</part>
